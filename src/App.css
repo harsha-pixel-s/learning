@@ -1,38 +1,141 @@
-.App {
+.Home {
+  color: blanchedalmond;
+ 
+  text-align: center;
+  background-color: blueviolet;
+  height: 120vh;
+}
+h1 {
+  padding-top: 120px;
+}
+h3 {
+  padding-top: 80px;
+}
+button {
+  height:60px;
+  width:130px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: blueviolet ;
+  border-color: none;
+  
+  box-shadow: 0.6px 6px 7px 0px black;
+  font-weight: 800px;
+  
+}
+button:hover {
+  background-color: blanchedalmond;
+  box-shadow: none;
+}
+.Navbar a {
+  text-decoration: none;
+  padding: 75.6px;
+  background-color: black;
+  color: blanchedalmond;
+  font-size: 25px;
+}
+.Navbar {
+position:fixed;
+  
+  background-color: black;
+ font-size: 20px;
+ margin-right: 0px;
+}
+.App-header {
+ 
+  height: 120vh;
+  background-color: blanchedalmond;
+  text-align: center;
+
+}
+.Homepage img {
+float: left;
+margin-left: 80px;
+border-radius: 40px 40px 40px 40px;
+box-shadow: 0.8px 8px 7px 4px black;
+}
+.Homepage h1 {
+  padding-top:20px;
+  color: blueviolet;
+}
+.Homepage h2 {
+  padding: 30px;
+}
+.Homepage h3 {
+  padding-top: 30px;
+  font-size: 20px;
+  color: blueviolet;
+}
+li {
+  font-size: 20px;
+  list-style-type: upper-roman;
+  list-style-position: inside;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a:hover {
+  color: blueviolet;
+  background-color: white;
+}
+.Hobbies {
+height: 120vh;
+background-color: blueviolet;
+
+}
+.Skills h1 {
+  padding-top: 10px;
+  text-align: center;
+  color: blanchedalmond;
+}
+.Skills img{
+margin-left: 250px;
+}
+.Info {
+  background-color: blanchedalmond;
+  height: 110vh;
+}
+.Info h1{
+  text-align: center;
+  padding: 10px;
+  color: blueviolet;
+}
+.Info h2 {
+  text-align:center;
+}
+.Info img {
+  padding-top: 30px;
+  margin-left: 180px;
+ box-shadow:  0.8px 6px 7px 4px black;
+}
+.Info h3 {
+  text-align: center;
+  padding: 2px;
+  font-size: 22px;
+  color: blueviolet;
+}
+.Queries {
+  height: 100vh;
+  background-color: blueviolet;
+}
+.Queries h1 {
+  padding-top: 10px;
+  color: blanchedalmond;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Queries h2 {
+  margin-left: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+textarea {
+  height:300px;
+  width: 700px;
+  margin-left: 50px;
+  font-size: 30px;
+  
+ 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Queries button {
+margin: 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  font-size: 30px;
+  color: blanchedalmond;
+  margin-left: 40px;
 }
