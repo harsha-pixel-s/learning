@@ -1,8 +1,8 @@
 .Home {
-  color: blanchedalmond;
+  color: grey;
  
   text-align: center;
-  background-color: blueviolet;
+  background-color: lightgreen;
   height: 120vh;
 }
 h1 {
@@ -11,39 +11,74 @@ h1 {
 h3 {
   padding-top: 80px;
 }
-button {
+.Home button {
   height:60px;
   width:130px;
   border-radius: 50px 50px 50px 50px;
-  background-color: blueviolet ;
+  background-color: lightgreen ;
   border-color: none;
   
   box-shadow: 0.6px 6px 7px 0px black;
   font-weight: 800px;
   
 }
-button:hover {
-  background-color: blanchedalmond;
+.Home button:hover {
+  background-color: grey;
   box-shadow: none;
 }
+.Homepage button {
+  height:60px;
+  width:130px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: lightgreen ;
+  border-color: none;
+  
+  box-shadow: 0.6px 6px 7px 0px black;
+  font-weight: 800px;
+  
+}
+.Homepage button:hover {
+  background-color: grey;
+  box-shadow: none;
+}
+
+.Queries button {
+  height:60px;
+  width:130px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: lightgreen ;
+  border-color: none;
+  
+  box-shadow: 0.6px 6px 7px 0px black;
+  font-weight: 800px;
+  
+}
+.Queries button:hover {
+  background-color: grey;
+  box-shadow: none;
+}
+ 
 .Navbar a {
+  
   text-decoration: none;
-  padding: 75.6px;
-  background-color: black;
-  color: blanchedalmond;
+  padding-right: 151.1px;
+  background-color:(128, 128, 128, 0.11) ;
+  color: black;
   font-size: 25px;
 }
 .Navbar {
-position:fixed;
+  padding-top:0px;
   
-  background-color: black;
- font-size: 20px;
- margin-right: 0px;
-}
-.App-header {
+position:fixed;
+  height:50px;
+  background-color: rgba(128, 128, 128, 0.212);
  
-  height: 120vh;
-  background-color: blanchedalmond;
+ 
+}
+.Homepage {
+ 
+  height: 110vh;
+  background-color: grey;
   text-align: center;
 
 }
@@ -55,7 +90,7 @@ box-shadow: 0.8px 8px 7px 4px black;
 }
 .Homepage h1 {
   padding-top:20px;
-  color: blueviolet;
+  color: lightgreen;
 }
 .Homepage h2 {
   padding: 30px;
@@ -63,7 +98,7 @@ box-shadow: 0.8px 8px 7px 4px black;
 .Homepage h3 {
   padding-top: 30px;
   font-size: 20px;
-  color: blueviolet;
+  color: lightgreen;
 }
 li {
   font-size: 20px;
@@ -72,30 +107,30 @@ li {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 a:hover {
-  color: blueviolet;
-  background-color: white;
+  color: white;
+  
 }
 .Hobbies {
 height: 120vh;
-background-color: blueviolet;
+background-color: lightgreen;
 
 }
 .Skills h1 {
   padding-top: 10px;
   text-align: center;
-  color: blanchedalmond;
+  color: grey;
 }
 .Skills img{
 margin-left: 250px;
 }
 .Info {
-  background-color: blanchedalmond;
+  background-color: grey;
   height: 110vh;
 }
 .Info h1{
   text-align: center;
   padding: 10px;
-  color: blueviolet;
+  color: lightgreen;
 }
 .Info h2 {
   text-align:center;
@@ -109,15 +144,15 @@ margin-left: 250px;
   text-align: center;
   padding: 2px;
   font-size: 22px;
-  color: blueviolet;
+  color: lightgreen;
 }
 .Queries {
   height: 100vh;
-  background-color: blueviolet;
+  background-color: lightgreen;
 }
 .Queries h1 {
   padding-top: 10px;
-  color: blanchedalmond;
+  color: grey;
   text-align: center;
 }
 .Queries h2 {
@@ -136,6 +171,6 @@ margin: 20px;
 }
 h4 {
   font-size: 30px;
-  color: blanchedalmond;
+  color: grey;
   margin-left: 40px;
 }

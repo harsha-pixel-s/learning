@@ -10,6 +10,8 @@ const About = () => {
     <li>our exclusive academic syllabi</li>
     <li> regular check in with updates</li>
 </ul>
+<button>SIGN UP HERE</button>
+    
 </div>
 
       );
